@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*适用于整个界面*/
+body{ margin:0px; background:#FFFFFF; font-size:12px; color:#000000;}
+*{ margin:0px; padding:0px; list-style:none; border:none;}
+
+
+/*wrap*/
+#wrap{ width:100%;}
+
+/*top*/
+#header{ position:relative; width:1024px; height:89px; margin:0 auto; background:url(../images/bg_header.JPG) repeat-x;}
+#header h1 { position:absolute; top:15px; left:34px;}
+#header #welcome { position:absolute; top:6px; left:606px;}
+#header #phoneno { position:absolute; top:2px; left:863px; width:119px; height:18px; padding:5px 0 0 24px; color:#c00;
+			 	  background:url(../images/pit_phone.jpg) no-repeat top left;}
+/*top----search*/
+#header #search {position:absolute; top:42px; left:334px; width:362px; height:34px; background:url(../images/bg_search.jpg) left no-repeat;}
+#header #search .t{ float:left; width:316px; height:34px; margin-left:7px; font-size:12px; background:url(../images/bg_text.jpg) repeat-x;}
+#header #search .b{ float:left; width:35px; height:34px; color:#FFF;background: url(../images/bg_button.jpg) repeat-x;}
+#header #search #circle{ float:left; width:4px; height:34px; background:url(../images/bg_search2.jpg) left no-repeat;}
+/*top----cab*/
+#header #cab { position:absolute; top:46px; left:846px; width:111px; height:18px; padding:4px 10px 4px 9px;  }
+#header #cab a{  display:block; width:111px; height:18px; padding:4px 10px 4px 9px;}
+#header #cab a:hover{ background:#FFFFFF; border: solid 1px #cacaca; }
+/*menu*/
+#menu{ width:1024px; height:415px; margin:0px auto;}
+/*menu----gnb*/
+#menu #gnb { width:1024px; height:40px; background:url(../images/bg_menu.jpg) repeat-x;}
+#menu #gnb .ttl{ float:left; width:207px; height:40px; line-height:40px;  text-align:center; font-size:14px; color:#FFFFFF; background:none;}
+#menu #gnb ul { width:998px; height:30px; margin:0px 13px 0px 13px;}
+#menu #gnb ul li { float:left; width:109px; text-align:center; font-size:14px; color:#FFFFFF; line-height:40px;}
+#menu #gnb ul li.li1 { float:left; width:109px; text-align:center; font-size:14px; color:#FFFFFF; background:url(../images/hover.jpg) no-repeat;}
+#menu #gnb ul a { display:block; height:40px; color:#FFFFFF; text-decoration:none;}
+#menu #gnb a:hover{ background:url(../images/hover.jpg);}
+
+/*menu----snb*/
+#menu #snb { float:left; width:190px; height:366px; margin:0px 13px 0px 13px; border: solid 2px #d00000; border-top:none;}
+#menu #snb ul { width:149px; height:349px; margin:17px 20px 2px 21px;}
+#menu #snb ul li{ width:149px; height:29px; font-size:14px; color:#333;}
+#menu #snb ul a{ color: #333333; text-decoration: none;}
+
+/*menu----center*/
+#menu #center { float:left; width:522px; height:350px; margin:7px 12px 18px 0px;}
+#menu #center #gallery{ width:450px; height:238px; padding:16px 46px 9px 24px; border: solid 1px #e0e0e0;}
+#menu #center #recommend{ width:522px; height:22px; margin-top:7px; border-bottom:solid 1px #e0e0e0; font-weight:bold;}
+#menu #center #thum{ width:522px; height:55px;}
+#menu #center #thum ul{ width:513px; height:31px; margin:20px 6px 4px 3px;}
+#menu #center #thum ul li{ float:left; width:85px; height:31px;}
+#menu #center #thum ul #li1 { float:left; width:92px; height:31px;}
+#menu #center #thum ul #li2 { float:left; width:72px; height:31px;}
+/*menu----right*/
+#menu #right { float:left; width:255px; height:363px; margin:7px 13px 2px 0px; border:solid 1px #d3d3d3;}
+/*menu----right----title*/
+#menu #right #ttl { position:relative; width:235px; height:20px; padding:8px 8px 0 12px; font-size:14px; background:url(../images/bg_salerank.JPG) repeat-x;}
+#menu #right #ttl span{ font-weight:bold; color:#FF0000;}
+#menu #right #ttl img { position:absolute; top:9px; left:215px;}
+/*menu----right----salesrank*/
+#menu #right #rank { float:left; width:255px; height:44px; border-bottom: solid 1px #f4f4f4; padding-top:9px;}
+#menu #right #rank #introd1{ float:left; width:57px; height:43px; padding: 0 14px 0 7px;}
+#menu #right #rank #introd2{ float:left; width:113px; height:12px; margin:16px 0px 17px 0px; font-weight:bold; color:#FF0000;}
+#menu #right #rank #introd2 a{ font-weight:bold; color:#FF0000; text-decoration:none;}
+#menu #right #rank #introd3{ float:left; width:60px; height:12px; margin:16px 0px 17px 0px; font-weight:bold; color:#FF0000;} 
+#menu #right #rank #introd3 a{ color:#333333; text-decoration:none;}
+#menu #right #rank a:hover{ color:#333333; text-decoration:underline;}
+
+/*content*/
+#content{ width:998px; height:1070px; margin:0px auto; margin-top:4px;}
+/*content----board*/
+#content #board{ width:998px; height:250px;}
+#content #board #lnb{ position:relative; width:998px; height:24px; border-bottom:solid 2px #8f0900;background:url(../images/bg_lnb.jpg) no-repeat left;}
+#content #board #lnb img { position:absolute; top:4px; left:10px;}
+#content #board #lnb #clothing{ float:left; margin:7px 0 6px 40px;color:#FFFFFF; font-weight:bolder; font-size:14px;}
+#content #board #lnb #lnb1{ position:absolute; top:7px; left:197px; width:270px/*263*/; height:13px; font-size:14px; color:#585858;}
+#content #board #lnb #lnb1 a { color:#585858; text-decoration:none;}
+#content #board #lnb #lnb1 span a{ color:#FF0000; text-decoration:none;}
+#content #board #lnb .img2{ position:absolute; top:6px; left:943px;}
+
+#content #class1{ float:left; width:150px; height:220px; margin-left:5px!important; margin-left:2px; clear:left;}
+#content #class1 #pit1{ width:77px; height:103px; padding:26px 36px 15px 37px;}
+#content #introduction{ width:134px; height:32px; text-align:left; padding:0 0 12px 16px;}
+#content #introduction a{ color:#000000; text-decoration:none;}
+#content #class1 #introduction span a{color:#e10102; text-decoration:none;}
+#content #price{ width:100px; height:12px; padding-left:16px;}
+#content #price a { font-size:16px; font-weight:900; text-decoration:none; color:#c20c19;}
+#content #price span a{ padding-left:10px; font-size:12px; font-weight:normal; color:#333333; text-decoration:line-through;}
+
+
+#content #class2{ float:left; width:150px; height:220px;}
+#content #class2 #pit2{ width:87px; height:114px; padding:21px 30px 9px 33px;}
+#content #class2 #pit3{ width:90px; height:115px; padding:20px 34px 9px 26px;}
+#content #class2 #pit4{ width:103px; height:61px; padding:46px 25px 37px 22px;}
+#content #class2 #pit5{ width:88px; height:111px; padding:23px 32px 11px 30px;}
+
+#content #class3{ float:left; width:210px; height:205px; margin:12px 12px 0px 21px!important; margin:12px 6px 0 10px;}
+#content #class3 #ad{ width:208px; height:63px; border: solid 1px #e4e4e4; margin-bottom:5px;} 
+#content #class3 #ad1{ width:208px; height:63px; border: solid 1px #e4e4e4;}
+
+/*ads*/ 
+#content #ads { width:968px; height:50px; margin:0 auto; margin-top:14px; background:url(../images/ads.jpg);}
+
+/*bottom*/
+#bottom { width:1024px; height:68px; margin:0 auto; padding-top:10px; text-align:center; border-top: solid 2px #8f0900;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

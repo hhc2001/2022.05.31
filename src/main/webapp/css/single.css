@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*适用于整个界面*/
+body{ margin:0px; background:#FFFFFF; font-size:12px; color:#000000;}
+*{ margin:0px; padding:0px; list-style:none; border:none;}
+/*wrap*/
+#wrap{ width:100%;}
+
+/*top*/
+#header{ position:relative; width:1024px; height:89px; margin:0 auto; background:url(../images/bg_header.JPG) repeat-x;}
+#header h1 { position:absolute; top:15px; left:34px;}
+#header #welcome { position:absolute; top:6px; left:606px;}
+#header #phoneno { position:absolute; top:2px; left:863px; width:119px; height:18px; padding:5px 0 0 24px; color:#c00;
+			 	  background:url(../images/pit_phone.jpg) no-repeat top left;}
+/*top----search*/
+#header #search {position:absolute; top:42px; left:334px; width:362px; height:34px; background:url(../images/bg_search.jpg) left no-repeat;}
+#header #search .t{ float:left; width:316px; height:34px; margin-left:7px; font-size:12px; background:url(../images/bg_text.jpg) repeat-x;}
+#header #search .b{ float:left; width:35px; height:34px; color:#FFF;background: url(../images/bg_button.jpg) repeat-x;}
+#header #search #circle{ float:left; width:4px; height:34px; background:url(../images/bg_search2.jpg) left no-repeat;}
+/*top----cab*/
+#header #cab { position:absolute; top:46px; left:846px; width:111px; height:18px; padding:4px 10px 4px 9px;  }
+#header #cab a{  display:block; width:111px; height:18px; padding:4px 10px 4px 9px;}
+#header #cab a:hover{ background:#FFFFFF; border: solid 1px #cacaca; }
+/*gnb*/
+#gnb{ width:1024px; height:40px; margin:0 auto; margin-bottom:11px; background:url(../images/bg_menu.jpg) repeat-x;}
+#gnb .ttl{ float:left; width:207px; height:40px; line-height:40px;  text-align:center; font-size:14px; color:#FFFFFF; background:none;}
+#gnb ul { width:998px; height:30px; margin:0px 13px 0px 13px;}
+#gnb ul li { float:left; width:109px; text-align:center; font-size:14px; color:#FFFFFF; line-height:40px;}
+#gnb ul li.li1 { float:left; width:109px; text-align:center; font-size:14px; color:#FFFFFF; background:url(../images/hover.jpg) no-repeat;}
+#gnb ul a { display:block; height:40px; color:#FFFFFF; text-decoration:none;}
+#gnb a:hover{ background:url(../images/hover.jpg);}
+/*content*/
+#content{ width:961px; height:1040px; margin:0 auto;}
+/*content----left*/
+#content #left{ float:left; width:216px; margin-right:7px;}
+#content #left #board{ width:216px; height:390px; margin-bottom:2px;}
+#content #left #board #ttl{ width:201px; height:22px; padding:12px 0 0 15px; color:#FFFFFF; background: url(../images/bg_ttl.jpg) repeat-x;}
+#content #left #board #thum{ width:214px; height:354px; border:solid 1px #f28300;}
+#content #left #board #thum #prod1{ width:177px; height:56px; margin:3px 40px 3px 17px;}
+#content #left #board #thum #prod1 #show{ float:left; width:54px; height:54px; border:solid 1px #d5d2d9; margin-right:6px;}
+#content #left #board #thum #prod1 #itd{ float:right; width:115px; height:54px; line-height:19px;}
+#content #left #board #thum #prod1 #itd p a{ color:#656563; text-decoration:none;}
+#content #left #board #thum #prod1 #itd p a:hover{ color:#333333; text-decoration:underline;}
+#content #left #board #thum #prod1 #itd span a{ color:#FF0000; text-decoration:none; font-weight:900;}
+/*content----right*/
+#content #right{ float:left; width:738px; color:#333333;} /*height:1129px;*/
+/*content----right----board1*/
+#content #right #board1{ width:623px; height:395px; padding-right:115px}
+#content #right #board1 #ttl1{ width:610px; height:30px; margin-left:12px; font-size:14px; line-height:30px; word-spacing:3px;}
+#content #right #board1 #ttl1 .t1{ float:left; width:39px; height:30px; font-weight:bold; line-height:normal;}
+#content #right #board1 #pit{ float:left; width:318px; height:318px; margin-right:19px; border:solid 1px #c1c1c1;}
+#content #right #board1 #brief_itd1 { float:left; width:283px; height:364px;}
+#content #right #board1 #brief_itd1 #size{ width:283px; height:28px; color:#666666; line-height:28px; letter-spacing:3px;}
+#content #right #board1 #brief_itd1 #size span{ color:#b20115;}
+#content #right #board1 #brief_itd1 #size .text{ float:left; width:42px; height:26px; margin-right:10px; border:solid 1px #989898;}
+#content #right #board1 #brief_itd1 #size .txt{ width:42px; height:26px;}
+#content #right #board1 #brief_itd1 #size .text1{ float:left; width:59px; height:19px; margin-top:7px; border:solid 1px #989898;}
+#content #right #board1 #brief_itd1 #size .txt1{ width:59px; height:19px;}
+#content #right #board1 #brief_itd1 #size .slt{ width:9px; height:8px; background:url(../images/bg_slt.jpg) no-repeat;}
+#content #right #board1 #brief_itd1 #button{ width:284px; height:32px; margin-top:35px;}
+#content #right #board1 #brief_itd1 #button #btn1{ float:left; width:130px; height:32px; margin-right:10px;}
+#content #right #board1 #brief_itd1 #button .btn1{width:133px; height:32px; background:url(../images/bg_btn1.jpg) no-repeat; font-weight:bold; font-size:16px; color:#FFFFFF;}
+#content #right #board1 #brief_itd1 #button .btn2{width:133px; height:32px; padding-left:10px; background:url(../images/bg_btn2.jpg) no-repeat; font-weight:bold; font-size:16px; color:#FFFFFF;}
+
+/*content----right----board2*/
+#content #right #ttl2{ width:738px; height:29px; margin-bottom:5px; border-bottom:solid 2px #b29336;}
+#content #right #ttl2 .t2{ float:left; width:90px; height:29px; background:url(../images/bg_t2.jpg) repeat-x; border:solid 1px #989898; 
+							border-bottom:none; line-height:28px; text-align:center;}
+#content #right #board2{ width:738px; height:217px; margin-bottom:10px;}
+#content #right #board2 #brief_itd2{ width:719px; height:157px; padding:17px 0 0 18px; border:solid 1px #ebebeb;}
+#content #right #board2 #brief_itd2 .itd1{ float:left; width:341px; height:132px; line-height:22px;}
+#content #right #board2 #brief_itd2 .itd2{ float:left; width:149px; padding-right:194px; height:132px; line-height:22px;}
+/*content----right----board3*/
+#content #right #board3{ width:738px; height:386px;}
+#content #right #board3 .b1{ width:722px; height:100px; padding:6px 0 0 16px; border-bottom:solid 1px #e9e9e9;}
+#content #right #board3 dl{ float:left; width:60px; height:79px; margin-right:32px;}
+#content #right #board3 dt{ width:60px; height:62px;}
+#content #right #board3 dd a{ line-height:17px; color:#3565a3; text-decoration:none;}
+#content #right #board3 #assess{ float:left; width:630px; height:100px;}
+#content #right #board3 #assess span{ color:#666666; line-height:26px;}
+#content #right #board3 #page{ width:738px; height:29px; color:#333333; text-align:right;}
+#content #right #board3 #page a{ color:#333333; text-decoration:none; line-height:29px;}
+#content #right #board3 #page a:hover{ text-decoration:underline;}
+
+
+/*ads*/ 
+#ads { width:968px; height:50px; margin:0 auto; background:url(../images/ads.jpg);}
+
+/*bottom*/
+#bottom { width:1024px; height:68px; margin:0 auto; padding-top:10px; text-align:center; border-top: solid 2px #8f0900;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
